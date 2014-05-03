@@ -5,23 +5,11 @@ I love vim! It's my editor of choice when I am developing software.
 Currently (for the last 4 years at least) I have been working mainly
 with the Ruby Programming Language.
 
-I have been missing a refactoring tool for a while (like the ones you
-can find in IDE's) while I am developing, but I never had the nerve
-to dwell into vim script to actually code my own.
+I have been using ecomba/vim-ruby-reactoring for a while and there are
+some things I wanted to improve. Since the project seems to be dead, I
+forked it and so here we are.
 
-Recently (a couple of weeks ago) Gary Bernhardt presented his vim
-configuration in the Software Craftsmanship User Group UK and he
-showed us the two refactoring patterns he has written in vim script.
-
-Initially I just thought "cool", but it didn't really sink in until
-a couple of weeks later.
-
-So now I have decided to code this in vim script, but I am not sure how far
-I will go with it (clone at your own risk).
-
-   N.B. 'Rename Local Variable', 'Rename Instance Variable' and 'ExtractMethod' require matchit.vim:
-
-[http://www.vim.org/scripts/script.php?script_id=39](http://relishapp.com/despo/vim-ruby-refactoring)
+The remaining README is copied from their repository.
    
 ## Implemented commands/patterns:
    
